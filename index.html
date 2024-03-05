@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema Git</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --top-margin: 2.875rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 51.04%, #EDFFF7 100%);
+            font-family: 'Inter', sans-serif;
+        }
+
+        .wrapper {
+            max-width: 55rem;
+            min-height: calc(100vh - 2 * var(--top-margin));
+            margin-block: var(--top-margin);
+            margin-inline: auto;
+            padding: 18px 36px;
+            background: #A8C0FF2B;
+        }
+
+        .brand {
+            font-size: 48px;
+            text-transform: uppercase;
+        }
+
+        .menu {
+            padding: 6px;
+        }
+        
+        .menu a {
+            display: inline-block;
+            padding: 12px 32px;
+            text-decoration: none;
+            color: #000;
+            border-inline-end: 0.5rem solid #000;
+            border-radius: 2rem;
+            text-transform: lowercase;
+        }
+
+        .menu a.active, .menu a:hover {
+            background: #f7abab;
+        }
+
+        .content {
+            border: 1px solid #000;
+            margin-block-start: 14px;
+            padding: 24px 22px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="brand">Cornel</h1>
+        <nav class="menu">
+            <a href="index.html" class="active">Acasă</a>
+            <a href="services.html">Servicii</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <main class="content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ab incidunt facilis accusantium veritatis ea repellat possimus magni id at. Magni similique perspiciatis explicabo praesentium quod reiciendis earum. Rem, minus?
+        </main>
+    </div>
+</body>
+</html>
